@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background:url(./images/mac.jpg);
+ 
+  
+}
+
+.chocolate-bar {
+  width: 500px;
+  height: 250px;
+  background-color: #4B0082; /* Dark chocolate */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bite {
+  width: calc(33.33% - 2px);
+  height: calc(33.33% - 2px);
+  background:url(./images/texture.jpg);
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.message-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.message {
+  display: none;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
